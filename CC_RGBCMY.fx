@@ -1,5 +1,9 @@
 //--------------------------------------------------------------
-// CC_RGBCMY  red green blue cyan magenta yellow "Color_NOT_Channel" correction based
+// This node FX controls the colors Red - Green - Blue - Cyan - Magenta - Yellow.
+// The colors are not channels but key color subtracted.
+// For each color is possible controlling Tint - Saturation - Gamma - Contrast - Gain - Brightness.
+// Useful for quick research for the right look of the image or connected with ColorCorrection node.
+// Works on Linux and MacOSX, for Win change "PROFILE" with "ps_2_0", "ps_2_b" or so on.
 // http://www.alessandrodallafontana.com/ 
 //--------------------------------------------------------------
 int _LwksEffectInfo
