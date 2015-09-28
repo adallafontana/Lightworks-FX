@@ -3,7 +3,7 @@
 // The colors are not channels but key color subtracted.
 // For each color is possible controlling Tint - Saturation - Gamma - Contrast - Gain - Brightness.
 // Useful for quick research for the right look of the image or connected with ColorCorrection node.
-// Works on Linux and MacOSX, for Win change "PROFILE" with "ps_2_0", "ps_2_b" or so on.
+// Works on Linux and MacOSX, for Win change "PROFILE" with "ps_3_0".
 // http://www.alessandrodallafontana.com/ 
 //--------------------------------------------------------------
 int _LwksEffectInfo
